@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-family: Montserrat, Roboto;
+    font-size: 0.9rem;
+}
+
+nav {
+    background-color: violet;
+    padding: 20px;
+}
+
+nav a {
+    padding: 15px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
+h1:hover {
+    color:hsl(300, 76%, 72%);
+}
+
+li:hover {
+    color:hsl(300, 76%, 72%);
+}
+
+p:hover {
+    color:hsl(300, 76%, 72%);
+}
+
+h3:hover {
+    color:hsl(300, 76%, 72%);
+}
+
+main {
+    margin: 15px;
+}
+
+.luxurious-script-regular {
+    font-family: "Luxurious Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+  }
+  
+
+.divc {
+    border: 2px solid blueviolet;
+    padding: 30px;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 2px 2px 4px;
+    background-color: hsl(300, 76%, 72%);
+}
+
+.divc:hover {
+    background-color:hsl(300, 31%, 47%);
+    color: white;
+}
+
+.img {
+    margin-top: 2.5rem;
+    max-width: 100%;
+    text-align: center;
+}
+
+img {
+    max-width: 90%;
+}
+
+.tables {
+    margin-top: 2rem;
+    max-width: 100%;
+}
+
+table, th, td {
+    border: 1px solid;
+  }
+
+table {
+    border-collapse: collapse;
+    max-width: 80%;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.row1 {
+    background-color:hsl(300, 31%, 47%)
+}
+
+.row2 {
+    background-color:hsl(300, 76%, 72%);
+}
+
+footer {
+    background-color:hsl(300, 76%, 72%);
+    padding: 20px;
+}
